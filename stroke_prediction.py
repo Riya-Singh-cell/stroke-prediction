@@ -70,6 +70,6 @@ plt.tight_layout()
 plt.show()
 
 
-# ✅ 12. CROSS VALIDATION
+#  12. CROSS VALIDATION
 cv_scores = cross_val_score(model, X_train_resampled, y_train_resampled, cv=5)
-print(f"📈 Mean Cross-Validation Accuracy: {cv_scores.mean():.4f}")
+print(f"Mean Cross-Validation Accuracy: {cv_scores.mean():.4f}")
